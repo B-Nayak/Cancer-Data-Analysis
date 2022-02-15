@@ -5,8 +5,7 @@
 ## Click on the charts below to interact
 
 
-```
-<a href = "https://gallant-varahamihira-00de8c.netlify.app">![](./charts/newplot-11.png)</a>
+
 
 ```python
 fig = px.bar(max_cases,x='Total.Number',y='State',color_discrete_sequence=['#F83839']*len(max_cases))
