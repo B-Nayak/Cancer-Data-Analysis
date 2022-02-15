@@ -1,6 +1,6 @@
 # Cancer-Data-Analysis
 ## All Charts shown are interactive
-![](./charts/5076A668-2863-40F5-BF0C-D5DBE3DC61B9.gif)
+
 
 ## Click on the charts below to interact
 
@@ -8,6 +8,7 @@
 
 
 ```python
+max_cases=df.sort_values("Total.Number",ascending=False).iloc[0:10,:]
 fig = px.bar(max_cases,x='Total.Number',y='State',color_discrete_sequence=['#F83839']*len(max_cases))
 fig.update_layout(autosize=False,width=600,height=500)
 fig.show()
@@ -60,13 +61,5 @@ fig.show()
 <a href = "https://quizzical-booth-b34ece.netlify.app">![](./charts/newplot-3.png)</a>
 
 ```python
-fig =go.Figure(go.Sunburst(
-    labels=labels,
-    parents=parents,
-    values=[10]+[round(item,2)/10 for item in list(races)] + r
-))
-fig.update_layout(margin = dict(t=0, l=0, r=0, b=0))
-fig.show()
-```
-`Multiply by 10 in all the scalars obtained in plot below`
+
 <a href = "https://eager-hugle-7a39ff.netlify.app">![](./charts/newplot-2.png)</a>
