@@ -1,5 +1,5 @@
 # Cancer-Data-Analysis
-## All Charts shown are interactive
+
 
 
 ## Click on the charts below to interact
