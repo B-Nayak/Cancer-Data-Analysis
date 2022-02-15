@@ -4,16 +4,7 @@
 
 ## Click on the charts below to interact
 
-```python
-fig = px.scatter(df,
-                 x="Total.Number",
-                 y='Total.Rate',
-                 size='Total.Population',
-                 size_max=len(df),
-                 hover_name='State',
-                 color='State')
-fig.update_layout(autosize=False,width=800,height=500)
-fig.show()
+
 ```
 <a href = "https://gallant-varahamihira-00de8c.netlify.app">![](./charts/newplot-11.png)</a>
 
